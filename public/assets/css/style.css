@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    color: darkslategray;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header {
+    height: 100px;
+    background: url(../img/header.png) no-repeat;
+}
+
+.header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 60px 0 60px;
+    position: relative;
+}
+
+.header nav .btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.about-me,
+.work,
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.about-me h2,
+.work h2,
+.contact-me h2 {
+    width: 150px;
+    padding: 20px;
+    margin-left: 60px;
+    border-right: solid;
+    justify-content: end;
+}
+
+.about-me-content {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.work-content {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-content-main {
+    width: 600px;
+    padding: 30px;
+    margin: 20px;
+    background: url(../img/header.png) no-repeat;
+}
+
+#work_content_main:hover {
+    opacity: 0.8;
+    color: green;
+    cursor: pointer;
+}
+
+.work-content-main h3 {
+    background-color: cadetblue;
+    white-space: nowrap;
+    width: 500px;
+}
+
+.work-content-main p {
+    background-color: cadetblue;
+    white-space: nowrap;
+    width: 500px;
+}
+
+.work-content-secondary {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px;
+    background: url(../img/header.png) no-repeat;
+}
+
+.work-content-secondary h3 {
+    background-color: cadetblue;
+    white-space: nowrap;
+    width: 400px;
+}
+
+.work-content-secondary p {
+    background-color: cadetblue;
+    white-space: nowrap;
+    width: 400px;
+}
+
+#work_content_2,
+#work_content_3,
+#work_content_4 {
+    margin: 20px;
+}
+
+#work_content_2:hover,
+#work_content_3:hover,
+#work_content_4:hover {
+    opacity: 0.8;
+    color: green;
+    cursor: pointer;
+}
+
+.contact-info {
+    padding-left: 20px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info a {
+    margin-left: 60px;
+}
+
+@media (max-width: 768px) {
+    .work-content-main {
+        width: 300px;
+    }
+    #work_content_secondary {
+        flex-direction: column;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+}
