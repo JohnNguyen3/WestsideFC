@@ -1,0 +1,314 @@
+<!-- Home Page will only have 3 drop down menus; Home, Season Home, Team History, About-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Westside FC</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+</head>
+
+<body>
+    <header class="header2">
+      <!-- This div creates the black bar up top -->
+      <div>1</div>
+    </header>
+    
+    <header class="header1">
+      <div class="container"> 
+        <div class="flex-container1"> 
+            <div class="flex-item"> 
+              <img src="./assets/img/WestsideLogo.png" id="WestsideLogo" alt="Westside FC Logo">
+            </div> 
+            <div class="flex-item"> 
+              <h1>Westside FC</h1>
+            </div> 
+        </div> 
+        <div class="flex-container2"> 
+            <div class="flex-item"> 
+                <img src="./assets/img/SGS.png" id="SGS" alt="Image on the right">
+            </div> 
+        </div> 
+      </div>   
+    </header>
+  
+     <!-- First will be Home page, which will have the option for season -->
+    <!-- The Dropdowns will be Home/Season Home/Match Report/Roster/Schedule/Season Stats -->
+    <header class="header2">
+      <div class="dropdown">
+        <!-- Home -->
+        <button class="dropbtn" id="home">Home</button>
+      </div>
+
+      <div class="dropdown">
+        <!-- Team History || Will contain Stats, Records, and All players that have ever played -->
+        <button class="dropbtn">Match Reports</button>
+        <div class="dropdown-content">
+          <a href="4_17Match.html" class="dropdown">Consolation: #8 Small Goals Big Hearts</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <!-- Seasonal Home Page -->
+        <button class="dropbtn">Season Home</button>
+        <div class="dropdown-content">
+          <a href="4_17Match.html" class="dropdown">Fall 2023</a>
+          <a href="4_17Match.html" class="dropdown">Winter 2024</a>
+          <a href="indexSpring2024.html" class="dropdown">Spring 2024</a>
+          <a href="4_17Match.html" class="dropdown">Summer 2024</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <!-- Starts with Match Report -->
+        <button class="dropbtn">Match Reports</button>
+        <div class="dropdown-content">
+          <a href="4_17Match.html" class="dropdown">Consolation: #8 Small Goals Big Hearts</a>
+        </div>
+      </div>
+    </header>
+    
+  
+  
+      
+  
+      <main>
+        <section class="standings-fixtures">
+          <div>
+            <h2 id="leagueTxt">Division 3 Spring 2024 League Standings</h2>
+              <table class="sortable" id="standings">
+                <thead>
+                  <tr>
+                    <th>Place</th>
+                    <th>Team</th>
+                    <th>Wins</th>
+                    <th>Ties</th>
+                    <th>Losses</th>
+                    <th>Points</th>
+                    <th>Goal Differential</th>
+                    <th>Goals For</th>
+                    <th>Goals Against</th>
+                    <th>Games Played</th>
+                    <th>Streak</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Strangers United</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>21</td>
+                    <td>34</td>
+                    <td>39</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>Won 7</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Redmonk United</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>15</td>
+                    <td>18</td>
+                    <td>30</td>
+                    <td>12</td>
+                    <td>7</td>
+                    <td>Won 2</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Monaco 2</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>25</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>Won 2</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>FC Quetzal</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>13</td>
+                    <td>5</td>
+                    <td>17</td>
+                    <td>12</td>
+                    <td>7</td>
+                    <td>Lost 2</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Westside FC</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>11</td>
+                    <td>9</td>
+                    <td>24</td>
+                    <td>15</td>
+                    <td>7</td>
+                    <td>Won 2</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Digipen Dragons</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>11</td>
+                    <td>2</td>
+                    <td>14</td>
+                    <td>12</td>
+                    <td>7</td>
+                    <td>Won 1</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Soccer Boys</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>10</td>
+                    <td>-4</td>
+                    <td>20</td>
+                    <td>24</td>
+                    <td>7</td>
+                    <td>Won 2</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>Small Goals Big Hearts</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>-8</td>
+                    <td>21</td>
+                    <td>29</td>
+                    <td>7</td>
+                    <td>Lost 1</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Wrecking Crew</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>-3</td>
+                    <td>21</td>
+                    <td>24</td>
+                    <td>7</td>
+                    <td>Lost 1</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Latino Kings FC</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>-21</td>
+                    <td>5</td>
+                    <td>26</td>
+                    <td>7</td>
+                    <td>Lost 4</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>Leeds United</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>-26</td>
+                    <td>6</td>
+                    <td>32</td>
+                    <td>7</td>
+                    <td>Lost 6</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>Korean Barbieque</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>-21</td>
+                    <td>10</td>
+                    <td>31</td>
+                    <td>7</td>
+                    <td>Lost 2</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+  
+          <div>
+            <div id="weekly-fixtures">
+                <h3>Weekly Division 3B Fixtures</h3>
+                <img src="./assets/img/Week1.png" alt="Fixture Image" id="fixture-image">
+            </div>
+          </div>
+        </section>    
+  
+        <section class="stats-bio"> <div>
+          <h2>Statistics</h2>
+          <table class="sortable" id="stats">
+            <thead>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Saves</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="PlayerOne">Player</td>
+                <td>One</td>
+                <td>5</td>
+                <td>8</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td id="PlayerTwo">Player</th>
+                <td>Two</td>
+                <td>14</td>
+                <td>3</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>Player</td>
+                <td>Three</td>
+                <td>0</td>
+                <td>0</td>
+                <td>21</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+  
+        <div>
+          <div id="player-bio"></div>
+        </div>
+          
+      </main>
+  
+      <script src="./assets/js/script.js"></script>
+  </body>
+  </html>

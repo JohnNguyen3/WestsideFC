@@ -1,3 +1,5 @@
+<!-- Home Page will only have 3 drop down menus; Home, Season Home, Team History, About-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,58 +7,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Westside FC</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>My Portfolio</title>
+    <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 </head>
 
 <body>
-    <header class="header">
-        <h2>Derrick Nguyen</h2>
-        <nav>
-            <!-- <button onclick="location.href='#about_me'" class="btn about-me-btn">About Me</button>
-            <button onclick="location.href='#work'" class="btn work-btn">Work</button>
-            <button onclick="location.href='#contact_me'" class="btn contact-me-btn">Contact Me</button> -->
-        </nav>
+    <header class="header3">
+      <!-- This div creates the black bar up top -->
+      <div>1</div>
+    </header>
+    
+    <header class="header1">
+      <div class="container"> 
+        <div class="flex-container1"> 
+            <div class="flex-item"> 
+              <img src="./assets/img/WestsideLogo.png" id="WestsideLogo" alt="Westside FC Logo">
+            </div> 
+            <div class="flex-item"> 
+              <h1>Westside FC</h1>
+            </div> 
+        </div> 
+        <div class="flex-container2"> 
+            <div class="flex-item"> 
+                <img src="./assets/img/SGS.png" id="SGS" alt="Image on the right">
+            </div> 
+        </div> 
+      </div>   
+    </header>
+  
+     <!-- First will be Home page, which will have the option for season -->
+    <!-- The Dropdowns will be Home/Season Home/Match Report/Roster/Schedule/Season Stats -->
+    <header class="header2">
+      <div class="dropdown">
+        <!-- Home -->
+        <button class="dropbtn" id="home">Home</button>
+      </div>
+
+      <div class="dropdown">
+        <!-- Seasonal Home Page -->
+        <button class="dropbtn">Season Home</button>
+        <div class="dropdown-content">
+          <a href="4_17Match.html" class="dropdown">Fall 2023</a>
+          <a href="4_17Match.html" class="dropdown">Winter 2024</a>
+          <a href="indexSpring2024.html" class="dropdown">Spring 2024</a>
+          <a href="4_17Match.html" class="dropdown">Summer 2024</a>
+        </div>
+      </div>
+
+        <div class="dropdown">
+        <!-- Team History || Will contain Stats, Records, and All players that have ever played -->
+        <button class="dropbtn">Team History</button>
+        <div class="dropdown-content">
+          <a href="4_17Match.html" class="dropdown">Consolation: #8 Small Goals Big Hearts</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <!-- About Page -->
+        <button class="dropbtn" id="about">About</button>
+      </div>
     </header>
 
-
-    <div id="about_me" class="about-me">
-        <h2>About Me</h2>
-        <div class="about-me-content">
-            <p>I love to learn.  If I learnt something new today, it's a successful day.</p>
-            <p>I also love to build things. To me the process of building something new is more important than the end result.</p>
-        </div>
-    </div>
-
-    <div id="work" class="work">
-        <h2>My Work</h2>
-        <div class="work-content">
-            <div class="work-content-secondary">
-                <div id="work_content_2">
-                    <h3>Find My Plate</h3>
-                    <p>Client: html/css/javascript</p>
-                </div>
-                <div id="work_content_3">
-                    <h3>Bulletin</h3>
-                    <p>Full Stack: node.js/express/mysql/sequilize/handlebars</p>
-                </div>
-                <div id="work_content_4">
-                    <h3>Weather Dashboard</h3>
-                    <p>client: html/css/javascript</p>
-                </div>
+    <body>
+      <!-- Week Final Score -->
+        <!-- Next Game Info-->
+        <!-- Link to Current Match Report -->
+        <!-- + Sponsor Moment of the Match (Video+Description) + Player of the Match(Picture+Description) Highlight and Info -->
+      <!-- Schedule -->
+        <!-- Highlights -->
+        <section>
+          <div class="video-container">
+            <button class="btn-left" onclick="shiftLeft()">&#10094;</button>
+            <div class="video-frame">
+                <iframe id="video1" width="1000" height="1000" 
+                src="https://youtube.com/embed/KqW25P5uS4w?si=tT1rNUmjwZROgm4i" 
+                frameborder="0" allowfullscreen></iframe>
             </div>
+            <div class="video-frame">
+                <iframe id="video2" width="1000" height="1000" 
+                src="https://youtube.com/embed/8mKVIswcHj8?si=Sh3iW3Xfadle7VFY" 
+                frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-frame">
+                <iframe id="video3" width="1000" height="1000" 
+                src="https://youtube.com/embed/hsXlXJQM5E8?si=n2n0m5dO9gbRe_NK" 
+                frameborder="0" allowfullscreen></iframe>
+            </div>
+            <button class="btn-right" onclick="shiftRight()">&#10095;</button>
         </div>
-    </div>
+        </section>
 
-    <div id="contact_me" class="contact-me">
-        <h2>Contact Me</h2>
-        <div class="contact-info">
-            <a href="mailto:ptkn2001@gmail.com">ptkn2001@gmail.com</a>
-            <a href="https://github.com/ptkn2001" target="_blank">Github</a>
-        </div>
-    </div>
+        <section>
+
+        </section>
+
+    </body>
 
     <script src="./assets/js/script.js"></script>
-</body>
-
-</html>
+  </body>
+  </html>

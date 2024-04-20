@@ -1,0 +1,9 @@
+{
+"name":"Player One",
+"age":34,
+"position":"Left Back",
+"goals": 15,
+"assists": 14,
+"saves": 13,
+"imagefile":"./assets/img/GenericPerson.jpg"
+}

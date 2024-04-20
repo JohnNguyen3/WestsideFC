@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Times New Roman', Times, serif;
+  /* background: white;
+  color: darkslategray;
+  line-height: 1.7;
+  overflow-x: hidden; */
+  background-color: beige;
+}
+
+#SGS {
+  width: 50%;
+  height: 50%;
+}
+
+.container { 
+  width: 104%; 
+  height: 60%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+} 
+
+.flex-container1 { 
+  display: flex; 
+  align-items: center; 
+  justify-content: left; 
+  height: 100%; 
+} 
+
+.flex-container2 { 
+  display: flex; 
+  align-items: center; 
+  justify-content: right; 
+  height: 100%; 
+} 
+
+.header2 {
+  background-color: #000000;
+}
+
+.header1 {
+  background-color: #aa0404;
+  font-size: 50px;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+#WestsideLogo {
+  width: 200px;
+  height: 200px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: #f1f1f1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #f1f1f1;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #aa0404;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(0, 0, 0);}
+
+header h1 {
+  color: white;
+  margin-left: 1rem;
+}
+
+/*Everything Above is for the standard header*/
+
+.container1 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    text-align: center;
+}
+p {
+    line-height: 1.6;
+}
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+.owner-image {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px; /* Add spacing between headers */
+}
+
+.owner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.content p {
+  text-align: center;
+  margin-bottom: 30px; /* Add spacing between headers */
+}
+
+.content h2 {
+  text-align: center;
+  margin-bottom: 10px; /* Add spacing between headers */
+}

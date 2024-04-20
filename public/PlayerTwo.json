@@ -1,0 +1,9 @@
+{
+  "name":"Player Two",
+  "age":19,
+  "position":"Right Back",
+  "goals": 5,
+  "assists": 1,
+  "saves": 0,
+  "imagefile":"./assets/img/GenericPerson.jpg"
+  }
