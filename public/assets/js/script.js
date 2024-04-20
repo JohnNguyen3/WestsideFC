@@ -111,7 +111,10 @@ setTimeout(function(){
         "https://youtube.com/embed/KqW25P5uS4w?si=tT1rNUmjwZROgm4i",
         "https://youtube.com/embed/8mKVIswcHj8?si=Sh3iW3Xfadle7VFY",
         "https://youtube.com/embed/hsXlXJQM5E8?si=n2n0m5dO9gbRe_NK",
-        "https://youtube.com/embed/HRR-EeK6_R0?feature=share"
+        "https://www.youtube.com/embed/dUq60HNgoVM?si=OZK5cPs1WBhYD6Tk",
+        "https://youtube.com/embed/HRR-EeK6_R0?feature=share",
+        "https://www.youtube.com/embed/Fzxp1nwOU68?si=ZQUV5ksdX62zkQ04",
+        "https://www.youtube.com/embed/7hD-_Zk6TBo?si=Au0Y8Jayyph8EWfY" 
     ];
 
     // Index of the currently displayed video
@@ -141,8 +144,16 @@ setTimeout(function(){
         var frame1 = document.getElementById('video1');
         var frame2 = document.getElementById('video2');
         var frame3 = document.getElementById('video3');
+        var frame4 = document.getElementById('video4');
+        var frame5 = document.getElementById('video5');
+        var frame6 = document.getElementById('video6');
+        var frame7 = document.getElementById('video7');
 
         frame1.src = videos[currentIndex];
         frame2.src = videos[(currentIndex + 1) % videos.length];
         frame3.src = videos[(currentIndex + 2) % videos.length]; 
+        frame4.src = videos[(currentIndex + 3) % videos.length];
+        frame5.src = videos[(currentIndex + 4) % videos.length]; 
+        frame6.src = videos[(currentIndex + 5) % videos.length];
+        frame7.src = videos[(currentIndex + 6) % videos.length]; 
     }
