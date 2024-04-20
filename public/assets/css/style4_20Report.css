@@ -15,7 +15,7 @@ body {
 }
 
 /*Change cursor when hovering over*/
-#SGS, #WestsideLogo, #home, #about, #report, #teamHistory {
+#SGS, #WestsideLogo, #home, #about, #report, #teamHistory, #seasonStats, #roster {
   cursor: pointer;
 }
 
@@ -123,51 +123,4 @@ img {
 header h1 {
   color: white;
   margin-left: 1rem;
-}
-
-/*Everything Above is for the standard header*/
-
-.container1 {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-h1, h2 {
-    text-align: center;
-}
-p {
-    line-height: 1.6;
-}
-.logo-container {
-    text-align: center;
-    margin-bottom: 20px;
-}
-.logo {
-    max-width: 200px;
-    height: auto;
-}
-.owner-image {
-    max-width: 100px;
-    height: auto;
-    border-radius: 50%;
-    margin-top: 20px;
-    margin-bottom: 30px; /* Add spacing between headers */
-}
-
-.owner-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.content p {
-  text-align: center;
-  margin-bottom: 30px; /* Add spacing between headers */
-}
-
-.content h2 {
-  text-align: center;
-  margin-bottom: 10px; /* Add spacing between headers */
 }

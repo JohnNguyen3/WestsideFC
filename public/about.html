@@ -13,63 +13,60 @@
 </head>
 
 <body>
-    <header class="header2">
-      <!-- This div creates the black bar up top -->
-      <div>1</div>
-    </header>
-    
-    <header class="header1">
-      <div class="container"> 
-        <div class="flex-container1"> 
-            <div class="flex-item"> 
-              <img src="./assets/img/WestsideLogo.png" id="WestsideLogo" alt="Westside FC Logo">
-            </div> 
-            <div class="flex-item"> 
-              <h1>Westside FC</h1>
-            </div> 
-        </div> 
-        <div class="flex-container2"> 
-            <div class="flex-item"> 
-                <img src="./assets/img/SGS.png" id="SGS" alt="Image on the right">
-            </div> 
-        </div> 
-      </div>   
-    </header>
+  <header class="header3">
+    <!-- This div creates the black bar up top -->
+    <div>1</div>
+  </header>
   
-     <!-- First will be Home page, which will have the option for season -->
-    <!-- The Dropdowns will be Home/Season Home/Match Report/Roster/Schedule/Season Stats -->
-    <header class="header2">
-      <div class="dropdown">
-        <!-- Home -->
-        <button class="dropbtn" id="home">Home</button>
+  <header class="header1">
+    <div class="container"> 
+      <div class="flex-container1"> 
+          <div class="flex-item"> 
+            <img src="./assets/img/WestsideLogo.png" id="WestsideLogo" alt="Westside FC Logo">
+          </div> 
+          <div class="flex-item"> 
+            <h1>Westside FC</h1>
+          </div> 
+      </div> 
+      <div class="flex-container2"> 
+          <div class="flex-item"> 
+              <img src="./assets/img/SGS.png" id="SGS" alt="Image on the right">
+          </div> 
+      </div> 
+    </div>   
+  </header>
+
+   <!-- First will be Home page, which will have the option for season -->
+  <!-- The Dropdowns will be Home/Season Home/Match Report/Roster/Schedule/Season Stats -->
+  <header class="header2">
+    <div class="dropdown">
+      <!-- Home -->
+      <button class="dropbtn" id="home">Home</button>
+    </div>
+
+    <div class="dropdown">
+      <!-- Seasonal Home Page -->
+      <button class="dropbtn">Season Home</button>
+      <div class="dropdown-content">
+        <a href="indexFall2023.html" class="dropdown">Fall 2023</a>
+        <a href="indexWinter2024.html" class="dropdown">Winter 2024</a>
+        <a href="indexSpring2024.html" class="dropdown">Spring 2024</a>
+        <a href="indexSummer2024.html" class="dropdown">Summer 2024</a>
       </div>
+    </div>
 
       <div class="dropdown">
-        <!-- Seasonal Home Page -->
-        <button class="dropbtn">Season Home</button>
-        <div class="dropdown-content">
-          <a href="4_17Match.html" class="dropdown">Fall 2023</a>
-          <a href="4_17Match.html" class="dropdown">Winter 2024</a>
-          <a href="indexSpring2024.html" class="dropdown">Spring 2024</a>
-          <a href="4_17Match.html" class="dropdown">Summer 2024</a>
-        </div>
-      </div>
+      <!-- Team History || Will contain Stats, Records, and All players that have ever played -->
+      <button class="dropbtn" id="teamHistory">Team History</button>
+    </div>
 
-        <div class="dropdown">
-        <!-- Team History || Will contain Stats, Records, and All players that have ever played -->
-        <button class="dropbtn">Team History</button>
-        <div class="dropdown-content">
-          <a href="4_17Match.html" class="dropdown">Consolation: #8 Small Goals Big Hearts</a>
-        </div>
-      </div>
+    <div class="dropdown">
+      <!-- About Page -->
+      <button class="dropbtn" id="about">About</button>
+    </div>
+  </header>
 
-      <div class="dropdown">
-        <!-- About Page -->
-        <button class="dropbtn" id="home">About</button>
-      </div>
-    </header>
-
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/scriptAbout.js"></script>
   </body>
 
   <body class="content">

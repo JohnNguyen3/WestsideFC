@@ -1,7 +1,7 @@
-// Refresh page every 5 minutes
+// Refresh page every 10 minutes
 setTimeout(function(){
     window.location.reload(1);
-  }, 300000);
+  }, 600000);
   
   document.getElementById("SGS").addEventListener("click", function() {
     // Navigate to the desired webpage
@@ -21,6 +21,16 @@ setTimeout(function(){
   document.getElementById("about").addEventListener("click", function() {
     // Navigate to the desired webpage
     window.location.href = "about.html";
+  });
+
+  document.getElementById("teamHistory").addEventListener("click", function() {
+    // Navigate to the desired webpage
+    window.location.href = "teamHistory.html";
+  });
+
+  document.getElementById("report").addEventListener("click", function() {
+    // Navigate to the desired webpage
+    window.location.href = "4_20Report.html";
   });
   /* 
   // Change fixture image every 10 seconds

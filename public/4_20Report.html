@@ -1,0 +1,97 @@
+<!-- Home Page will only have 3 drop down menus; Home, Season Home, Team History, About-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Westside FC</title>
+    <link rel="stylesheet" href="./assets/css/style4_20Report.css">
+    <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+</head>
+
+<body>
+    <header class="header3">
+      <!-- This div creates the black bar up top -->
+      <div>1</div>
+    </header>
+    
+    <header class="header1">
+      <div class="container"> 
+        <div class="flex-container1"> 
+            <div class="flex-item"> 
+              <img src="./assets/img/WestsideLogo.png" id="WestsideLogo" alt="Westside FC Logo">
+            </div> 
+            <div class="flex-item"> 
+              <h1>Westside FC</h1>
+            </div> 
+        </div> 
+        <div class="flex-container2"> 
+            <div class="flex-item"> 
+                <img src="./assets/img/SGS.png" id="SGS" alt="Image on the right">
+            </div> 
+        </div> 
+      </div>   
+    </header>
+  
+     <!-- First will be Home page, which will have the option for season -->
+    <!-- The Dropdowns will be Home/Season Home/Match Report/Roster/Season Stats -->
+    <header class="header2">
+      <div class="dropdown">
+        <!-- Home -->
+        <button class="dropbtn" id="home">Home</button>
+      </div>
+
+      <div class="dropdown">
+        <!-- Seasonal Home Page || Will contain standings, and schedule  -->
+        <button class="dropbtn">Season Home</button>
+        <div class="dropdown-content">
+          <a href="indexFall2023.html" class="dropdown">Fall 2023</a>
+          <a href="indexWinter2024.html" class="dropdown">Winter 2024</a>
+          <a href="indexSpring2024.html" class="dropdown">Spring 2024</a>
+          <a href="indexSummer2024.html" class="dropdown">Summer 2024</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <!-- Match Report -->
+        <button class="dropbtn">Match Report</button>
+        <div class="dropdown-content">
+          <a href="3_4Report.html" class="dropdown">Week 1: FC Quetzal</a>
+          <a href="3_12Report.html" class="dropdown">Week 2: Monaco 2</a>
+          <a href="3_15Report.html" class="dropdown">Week 3: Korean Barbieque</a>
+          <a href="3_20Report.html" class="dropdown">Week 4: Redmonk United & Leeds United</a>
+          <a href="4_4Report.html" class="dropdown">Week 6: FC Quetzal</a>
+          <a href="4_17Report.html" class="dropdown">Week 7: Korean Barbieque</a>
+          <a href="4_20Report.html" class="dropdown">Consolation: #8 Small Goals Big Hearts</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <!-- Roster || Players on the team and their bio/info -->
+        <button class="dropbtn" id="roster">Roster</button>
+      </div>
+
+      <div class="dropdown">
+        <!-- Season Stats || Players on the team and their bio/info -->
+        <button class="dropbtn" id="seasonStats">Statistics</button>
+      </div>
+
+      <div class="dropdown">
+        <!-- Team History || Will contain Stats, Records, and All players that have ever played -->
+        <button class="dropbtn" id="teamHistory">Team History</button>
+      </div>
+
+      <div class="dropdown">
+        <!-- About Page -->
+        <button class="dropbtn" id="about">About</button>
+      </div>
+    </header>
+
+    <body>
+
+      <script src="./assets/js/script4_20Report.js"></script>
+    </body>
+    </html>

@@ -48,19 +48,16 @@
         <!-- Seasonal Home Page -->
         <button class="dropbtn">Season Home</button>
         <div class="dropdown-content">
-          <a href="4_17Match.html" class="dropdown">Fall 2023</a>
-          <a href="4_17Match.html" class="dropdown">Winter 2024</a>
+          <a href="indexFall2023.html" class="dropdown">Fall 2023</a>
+          <a href="indexWinter2024.html" class="dropdown">Winter 2024</a>
           <a href="indexSpring2024.html" class="dropdown">Spring 2024</a>
-          <a href="4_17Match.html" class="dropdown">Summer 2024</a>
+          <a href="indexSummer2024.html" class="dropdown">Summer 2024</a>
         </div>
       </div>
 
         <div class="dropdown">
         <!-- Team History || Will contain Stats, Records, and All players that have ever played -->
-        <button class="dropbtn">Team History</button>
-        <div class="dropdown-content">
-          <a href="4_17Match.html" class="dropdown">Consolation: #8 Small Goals Big Hearts</a>
-        </div>
+        <button class="dropbtn" id="teamHistory">Team History</button>
       </div>
 
       <div class="dropdown">
@@ -80,60 +77,10 @@
         <h1 id="seasonheader">Upcoming Season: Summer 2024</h1>
 
         <section id="topContainer">
-          <section class="section-container">
-            <div>
-              <p id="report">Westside FC Match Report 4/18: #5 Westside FC Survives Against Rivals #8 Small Goals Big Hearts in a High-Scoring Thriller</p>
-              
-              <div id="scoreboard">
-                <img src="./assets/img/WestsideLogo.png" alt="Westside FC Logo">
-                <p id="score">4 - 3</p> 
-                <img src="./assets/img/SGBH.png" alt="Westside FC Logo">
-              </div>
-
-              <div class="motm-announcement">
-                <img  src=".\assets\img\gillette.png" alt="Image">
-                <p>Moment of the Match</p>
-              </div>
-            
-              <div id="motmVid" class="motmvideo-container">
-                  <iframe width="200" height="200" src="https://www.youtube.com/embed/Fzxp1nwOU68?si=ZQUV5ksdX62zkQ04" frameborder="0" allowfullscreen></iframe>
-              </div>
-
-              <div class="motm-announcement">
-                <img id="Sponsor1" src=".\assets\img\23_Me.png" alt="Image">
-                <p>23andMe’s Man of the Match</p>
-              </div>
-
-              <div id="MOTM" class="player-info-container">
-                <div>
-                    <img src="./assets/img/GenericPerson.jpg" alt="Westside FC Logo" class="player-image">
-                </div>
-                <div id="MOTMinfo" class="player-details">
-                    <p id="name" class="player-name">DJ L.</p>
-                    <p class="player-description">His otherworldly 11-save performance as goal keeper for #5 Westside FC propelled the team to victory.</p>
-                </div>
-            </div>
-                
-              </div>
-            </div>
-          </section>
-        
-          <!-- Second Section -->
-          <section class="section-container">
-            <div class="flex-container3">
-                <div class="flex-item3">
-                    <img src="./assets/img/WestsideLogo.png" alt="Westside FC Logo">
-                </div>
-                <div class="flex-item3">
-                    <h1>Westside FC</h1>
-                </div>
-            </div>
-          </section>
-        
           <!-- Third Section -->
           <section class="section-container">
             <div class="schedule-container">
-              <h2>Schedule</h2>
+              <h2>Spring 2024 Schedule</h2>
               <div class="week-container">
                   <div class="week">
                       <p>Week 1 - 2/28</p>
@@ -183,6 +130,69 @@
               </div>
           </div>
           
+          </section>
+          
+          <section class="section-container">
+            <div>
+              <p id="report">Westside FC Match Report 4/18: #5 Westside FC Survives Against Rivals #8 Small Goals Big Hearts in a High-Scoring Thriller</p>
+              
+              <div id="scoreboard">
+                <img src="./assets/img/WestsideLogo.png" alt="Westside FC Logo">
+                <p id="score">4 - 3</p> 
+                <img src="./assets/img/SGBH.png" alt="Westside FC Logo">
+              </div>
+
+              <div class="motm-announcement">
+                <img  src=".\assets\img\gillette.png" alt="Image">
+                <p>Moment of the Match</p>
+              </div>
+            
+              <div id="motmVid" class="motmvideo-container">
+                  <iframe width="200" height="200" src="https://www.youtube.com/embed/Fzxp1nwOU68?si=ZQUV5ksdX62zkQ04" frameborder="0" allowfullscreen></iframe>
+              </div>
+
+              <div class="motm-announcement">
+                <img id="Sponsor1" src=".\assets\img\23_Me.png" alt="Image">
+                <p>23andMe’s Man of the Match</p>
+              </div>
+
+              <div id="MOTM" class="player-info-container">
+                <div>
+                    <img src="./assets/img/GenericPerson.jpg" alt="Westside FC Logo" class="player-image">
+                </div>
+                <div id="MOTMinfo" class="player-details">
+                    <p id="name" class="player-name">DJ L.</p>
+                    <p class="player-description">His otherworldly 11-save performance as goal keeper for #5 Westside FC propelled the team to victory.</p>
+                </div>
+            </div>
+                
+              </div>
+            </div>
+          </section>
+        
+          <!-- Second Section -->
+          <section class="section-container">
+            <div class="next-match-container">
+              <h2>Next Match</h2>
+              <div class="match-info">
+                  <p>vs. TBA</p>
+                  <img src="./assets/img/SGS.png" alt="Opponent Logo">
+              </div>
+              <div class="match-details">
+                  <p>Date: May 8th, 2024</p>
+                  <p>Time: TBA</p>
+                  <p>Location: Hartman Field</p>
+              </div>
+              <div class="injury-report">
+                  <h3>Injury Report</h3>
+                  <div class="injury-info">
+                      <p>- Daniel: Academic Probation (Out)</p>
+                      <p>- Travie: Hamstring (Out)</p>
+                      <p>- Niko: Domestic Employment Duties (Out)</p>
+                  </div>
+                  <!-- Add more injury reports as needed -->
+              </div>
+            </div>
           </section>
         </section>
 
