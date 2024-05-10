@@ -1,0 +1,218 @@
+<!-- Home Page will only have 3 drop down menus; Home, Season Home, Team History, About-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WFC vs. FC Quetzal 5/8</title>
+  <link rel="stylesheet" href="./assets/css/style5_11Report.css">
+  <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+
+  <!-- Favicon Icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_package_v0.16/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_package_v0.16/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_package_v0.16/favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon_package_v0.16/site.webmanifest">
+  <link rel="mask-icon" href="./assets/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header class="header3">
+      <!-- This div creates the black bar up top -->
+      <div>1</div>
+    </header>
+    
+    <header class="header1">
+      <div class="container"> 
+        <div class="flex-container1"> 
+            <div class="flex-item"> 
+              <img src="./assets/img/WestsideLogo.png" id="WestsideLogo" alt="Westside FC Logo">
+            </div> 
+            <div class="flex-item"> 
+              <h1>Westside FC</h1>
+            </div> 
+        </div> 
+        <div class="flex-container2"> 
+            <div class="flex-item"> 
+                <img src="./assets/img/SGS.png" id="SGS" alt="Image on the right">
+            </div> 
+        </div> 
+      </div>   
+    </header>
+  
+     <!-- First will be Home page, which will have the option for season -->
+    <!-- The Dropdowns will be Home/Season Home/Match Report/Roster/Season Stats -->
+    <header class="header2">
+      <div class="dropdown">
+        <!-- Home -->
+        <button class="dropbtn" id="home">Home</button>
+      </div>
+
+      <div class="dropdown">
+        <!-- Seasonal Home Page || Will contain standings, and schedule  -->
+        <button class="dropbtn">Season Home</button>
+        <div class="dropdown-content">
+          <a href="indexFall2023.html" class="dropdown">Fall 2023</a>
+          <a href="indexWinter2024.html" class="dropdown">Winter 2024</a>
+          <a href="indexSpring2024.html" class="dropdown">Spring 2024</a>
+          <a href="indexSummer2024.html" class="dropdown">Summer 2024</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <!-- Match Report -->
+        <button class="dropbtn">Match Report</button>
+        <div class="dropdown-content">
+          <a href="3_4Report.html" class="dropdown">Week 1: FC Quetzal</a>
+          <a href="3_12Report.html" class="dropdown">Week 2: Monaco 2</a>
+          <a href="3_15Report.html" class="dropdown">Week 3: Korean Barbieque</a>
+          <a href="3_20Report.html" class="dropdown">Week 4: Redmonk United & Leeds United</a>
+          <a href="4_4Report.html" class="dropdown">Week 6: FC Quetzal</a>
+          <a href="4_17Report.html" class="dropdown">Week 7: Korean Barbieque</a>
+          <a href="4_20Report.html" class="dropdown">Consolation: #8 Small Goals Big Hearts</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <!-- Roster || Players on the team and their bio/info -->
+        <button class="dropbtn" id="roster">Roster</button>
+      </div>
+
+      <div class="dropdown">
+        <!-- Season Stats || Players on the team and their bio/info -->
+        <button class="dropbtn" id="seasonStats">Statistics</button>
+      </div>
+
+      <div class="dropdown">
+        <!-- Team History || Will contain Stats, Records, and All players that have ever played -->
+        <button class="dropbtn" id="teamHistory">Team History</button>
+      </div>
+
+      <div class="dropdown">
+        <!-- About Page -->
+        <button class="dropbtn" id="about">About</button>
+      </div>
+    </header>
+
+    <body>
+      <div class="container-wrapper">
+        
+        <div class="containerBody">
+          <p id="report">Westside FC Match Report 5/11: Undermanned Westside FC Pulls Off Improbable Comeback Against Bitter Rivals FC Quetzal</p>
+        
+          <section class="ReportContent">
+            <p>text</p>
+          </section>
+
+          <div class="motm-announcement">
+            <img  src="./assets/img/Logos/Sponsors/Favoritos.png" id="MomentSponsor" alt="Image">
+            <p>Moment of the Match</p>
+          </div>
+        
+          <div id="motmVid" class="motmvideo-container">
+              <iframe width="500" height="350" src="https://www.youtube.com/embed/GiM5beybVo8?si=x6uUG5zlpR0DUwJF" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+          <div class="motm-announcement">
+            <img id="Sponsor1" src="./assets/img/Logos/Sponsors/DraftKings.png" alt="Image">
+            <p>DraftKing's Man of the Match</p>
+          </div>
+
+          <div id="MOTM" class="player-info-container">
+            <div>
+              <img src="./assets/img/GenericPerson.jpg" alt="Westside FC Logo" class="player-image">
+            </div>
+            <div id="MOTMinfo" class="player-details">
+                <p id="name" class="player-name">Baki</p>
+                <p class="player-description">His incredible midfield presence and high work-rate played a pivotal role in controling the pace of play in Westside FC's favor.</p>
+            </div>
+          </div>
+
+          <section class="ReportContent">
+            <h2>What’s Next: </h2>
+            <p>text</p>
+          
+            <h2>Injury Report 4/17:</h2>
+            <ul>
+            <li>Travie: Hamstring Soreness (Out)</li>
+            <li>Marcos: Sounder Supporting (Out)</li>
+            <li>Manuel T: Travel (Out)</li>
+            <li>Daniel: Academic Probation (Out)</li>
+            <li>John N: Plague (Out)</li>
+            <li>Thong: Plague (Out)</li>
+            <li>Niko: Domestic Employment Duties (Out)</li>
+            </ul>
+            <p>text</p>
+            
+            <h2>Other Headlines Around the League:</h2>
+            <ul>
+              <li>Text</li>
+              <li>Text</li>
+            </ul>
+          </section>
+        </div>
+        
+        <div class="containerBody">
+          <div class="containerBody">
+            <h2>Week 1</h2>
+            <img src="./assets/img/WeeklyScores/Summer2024/WFC_FCQ_Week1.PNG" id="Scorecard" alt="Week's Score">
+            
+            <div class="containerScore">
+              <img src="./assets/img/WeeklyScores/Spring2024/SoccerBall.PNG" id="soccerBall" alt="Image">
+              <div class="textScore">
+                  <p id="opponent">FC Quetzal (18')</p>
+              </div>
+            </div>
+            <div class="containerScore">
+              <img src="./assets/img/WeeklyScores/Spring2024/SoccerBall.PNG" id="soccerBall" alt="Image">
+              <div class="textScore">
+                  <p>John W (27')</p>
+              </div>
+            </div>
+            <div class="containerScore">
+              <img src="./assets/img/WeeklyScores/Spring2024/SoccerBall.PNG" id="soccerBall" alt="Image">
+              <div class="textScore">
+                  <p>Jose (31')</p>
+              </div>
+            </div>
+          </div>
+
+          <!--Video does not start at beginning-->
+          <section id="Video">
+            <h2>Full-Match</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/n1B0QXBHMvw?si=zH19ISAnmImz1tiC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </section>
+
+          <section>
+            <img src="./assets/img/StartingVI/Summer2024/Week1.PNG" id="StartingVI" alt="StartingVI">
+          </section>
+
+          <section>
+            <h1 id="Highlight">Highlights</h1> 
+          </section>
+  
+          <section>
+            <div class="video-container">
+              <button class="btn-left" onclick="shiftLeft()">&#10094;</button>
+              <div class="video-frame">
+                <iframe id="video1" width="100" height="100" 
+                src="https://www.youtube.com/embed/GiM5beybVo8?si=x6uUG5zlpR0DUwJF" 
+                frameborder="0" allowfullscreen></iframe>
+              </div>
+              <button class="btn-right" onclick="shiftRight()">&#10095;</button>
+            </div>
+          </section>
+        </div>
+
+
+      </div>
+
+
+      <script src="./assets/js/script5_11Report.js"></script>
+    </body>
+    </html>

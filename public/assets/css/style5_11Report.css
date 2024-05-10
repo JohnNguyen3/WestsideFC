@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Times New Roman', Times, serif;
+  /* background: white;
+  color: darkslategray;
+  line-height: 1.7;
+  overflow-x: hidden; */
+  background-color: beige;
+}
+
+/*Change cursor when hovering over*/
+#SGS, #WestsideLogo, #home, #about, #teamHistory, #seasonStats, #roster {
+  cursor: pointer;
+}
+
+/* Style for images 
+img {
+  width: 90px;
+  height: 90px;
+}*/
+
+#SGS {
+  width: 30%;
+  height: 30%;
+}
+
+.container { 
+  width: 104%; 
+  height: 100px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+} 
+
+.flex-container1 { 
+  display: flex; 
+  align-items: center; 
+  justify-content: left; 
+  height: 100%; 
+} 
+
+.flex-container2 { 
+  display: flex; 
+  align-items: center; 
+  justify-content: right; 
+  height: 100%; 
+} 
+
+.header2 {
+  background-color: #000000;
+  height: 30px;
+}
+
+.header3 {
+  background-color: #000000;
+  height: 20px;
+}
+
+.header1 {
+  background-color: #aa0404;
+  font-size: 20px;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 10px;
+  border: none;
+  height: 30px;
+}
+
+#WestsideLogo {
+  width: 90px;
+  height: 90px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 10px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: #f1f1f1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  color: #f1f1f1;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #aa0404;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(0, 0, 0);}
+
+header h1 {
+  color: white;
+  margin-left: 1rem;
+}
+
+.container-wrapper {
+  display: flex; /* Use flexbox */
+}
+
+.containerBody {
+  border: 2px solid #000; /* Add border with 2px width and black color */
+  padding: 20px; /* Add some padding inside the container */
+  margin: 20px; /* Add some margin between containers */
+  flex: 1; /* Allow containers to grow and occupy equal space */
+  text-align: center; /* Center text horizontally */
+}
+
+ /* Reports */
+ #report {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+ }
+
+ .ReportContent, .ReportContent h2, .ReportContent p {
+  text-align: left;
+  padding-top: 15px;
+ }
+
+.ReportContent h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Right Container */
+
+ #Scorecard {
+  width: 50%;
+  height: auto;
+ }
+
+ #soccerBall {
+  width: 25px;
+ }
+
+.containerScore {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Center items vertically */
+}
+
+.textScore {
+  margin-left: 5x; /* Add some spacing between the image and text */
+  font-weight: bold;
+}
+
+#opponent {
+  color:rgb(255, 136, 0);
+}
+
+#Video h2, #Video iframe {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#StartingVI {
+  padding-top: 10px;
+  
+}
+
+/* Highlights Section */
+
+#Highlight {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center; /* Center align the videos */
+  overflow-x: hidden;
+  margin: 20px auto; /* Center the container horizontally */
+  position: relative;
+}
+.video-frame {
+  margin: 0 5px; /* Adjust the margin between video frames */
+}
+.video-frame iframe {
+  width: 500px; /* Adjust the width of each video frame */
+  height: 350px; /* Adjust the height of each video frame */
+}
+.btn-left,
+.btn-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn-left:hover,
+.btn-right:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.btn-left {
+  left: 0;
+}
+.btn-right {
+  right: 0;
+}
+
+/* Report Man OTM and Moment OTM */
+
+.player-info-container {
+  align-items: center; /* Align items vertically */
+}
+
+.player-image {
+  width: 200px; /* Set max width for the image */
+}
+
+.player-details {
+  display: flex; /* Use flexbox for details container */
+  flex-direction: column; /* Arrange items vertically */
+  flex: 1; /* Allow the details div to grow to fill remaining space */
+  font-weight: bold;
+}
+
+.player-name {
+  margin-bottom: auto; /* Align the name to the top of the details container */
+  text-align: center; /* Center-align the name */
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+
+.player-description {
+  margin-top: 5px; /* Add some space between name and description */
+}
+
+.motm-announcement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#Sponsor1 {
+  max-height: 60px;
+}
+
+.motm-announcement img {
+  height: 120px; /* Set maximum height for the image */
+  width: auto; /* Set width to auto to maintain aspect ratio */
+  margin-right: 0px; /* Add some space between the image and text */
+}
+
+
+
+.motm-announcement p {
+  /*margin-left: 20px;  Add some space between the image and text */
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.motmvideo-container {
+  display: flex;
+  justify-content: center; /* Center the video horizontally */
+  align-items: center; /* Center the video vertically */
+  margin-top: 20px; /* Add some space between the announcement and video */
+}
+
+.motmvideo-container iframe {
+  max-width: 100%; /* Ensure the video doesn't exceed its container width */
+  max-height: 100%; /* Ensure the video doesn't exceed its container height */
+}
