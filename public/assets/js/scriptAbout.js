@@ -5,7 +5,7 @@ setTimeout(function(){
 
 document.getElementById("SGS").addEventListener("click", function() {
   // Navigate to the desired webpage
-  window.location.href = "https://www.smallgoalsoccer.com/seattle-redmond-adult-soccer/";
+  window.location.href = "https://thesportclub.org/schedule/sgs";
 });
 
 document.getElementById("WestsideLogo").addEventListener("click", function() {

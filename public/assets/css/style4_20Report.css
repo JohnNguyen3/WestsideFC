@@ -15,15 +15,15 @@ body {
 }
 
 /*Change cursor when hovering over*/
-#SGS, #WestsideLogo, #home, #about, #report, #teamHistory, #seasonStats, #roster {
+#SGS, #WestsideLogo, #home, #about, #teamHistory, #seasonStats, #roster {
   cursor: pointer;
 }
 
-/* Style for images */
+/* Style for images 
 img {
   width: 90px;
   height: 90px;
-}
+}*/
 
 #SGS {
   width: 30%;
@@ -123,4 +123,179 @@ img {
 header h1 {
   color: white;
   margin-left: 1rem;
+}
+
+.container-wrapper {
+  display: flex; /* Use flexbox */
+}
+
+.containerBody {
+  border: 2px solid #000; /* Add border with 2px width and black color */
+  padding: 20px; /* Add some padding inside the container */
+  margin: 20px; /* Add some margin between containers */
+  flex: 1; /* Allow containers to grow and occupy equal space */
+  text-align: center; /* Center text horizontally */
+}
+
+ /* Reports */
+ #report {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+ }
+
+ .ReportContent, .ReportContent h2, .ReportContent p {
+  text-align: left;
+  padding-top: 15px;
+ }
+
+.ReportContent h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Right Container */
+
+ #Scorecard {
+  width: 50%;
+  height: auto;
+ }
+
+ #soccerBall {
+  width: 25px;
+ }
+
+.containerScore {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Center items vertically */
+}
+
+.textScore {
+  margin-left: 5x; /* Add some spacing between the image and text */
+  font-weight: bold;
+}
+
+#opponent {
+  color:rgb(255, 136, 0);
+}
+
+#Video h2, #Video iframe {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#StartingVI {
+  padding-top: 10px;
+  
+}
+
+/* Highlights Section */
+
+#Highlight {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center; /* Center align the videos */
+  overflow-x: hidden;
+  margin: 20px auto; /* Center the container horizontally */
+  position: relative;
+}
+.video-frame {
+  margin: 0 5px; /* Adjust the margin between video frames */
+}
+.video-frame iframe {
+  width: 500px; /* Adjust the width of each video frame */
+  height: 350px; /* Adjust the height of each video frame */
+}
+.btn-left,
+.btn-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn-left:hover,
+.btn-right:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.btn-left {
+  left: 0;
+}
+.btn-right {
+  right: 0;
+}
+
+/* Report Man OTM and Moment OTM */
+
+.player-info-container {
+  align-items: center; /* Align items vertically */
+}
+
+.player-image {
+  width: 200px; /* Set max width for the image */
+}
+
+.player-details {
+  display: flex; /* Use flexbox for details container */
+  flex-direction: column; /* Arrange items vertically */
+  flex: 1; /* Allow the details div to grow to fill remaining space */
+  font-weight: bold;
+}
+
+.player-name {
+  margin-bottom: auto; /* Align the name to the top of the details container */
+  text-align: center; /* Center-align the name */
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+
+.player-description {
+  margin-top: 5px; /* Add some space between name and description */
+}
+
+.motm-announcement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#Sponsor1 {
+  max-height: 60px;
+}
+
+.motm-announcement img {
+  max-height: 25px; /* Set maximum height for the image */
+  width: auto; /* Set width to auto to maintain aspect ratio */
+  margin-right: 10px; /* Add some space between the image and text */
+}
+
+
+
+.motm-announcement p {
+  /*margin-left: 20px;  Add some space between the image and text */
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.motmvideo-container {
+  display: flex;
+  justify-content: center; /* Center the video horizontally */
+  align-items: center; /* Center the video vertically */
+  margin-top: 20px; /* Add some space between the announcement and video */
+}
+
+.motmvideo-container iframe {
+  max-width: 100%; /* Ensure the video doesn't exceed its container width */
+  max-height: 100%; /* Ensure the video doesn't exceed its container height */
 }
