@@ -30,7 +30,7 @@ setTimeout(function(){
 
   document.getElementById("report").addEventListener("click", function() {
     // Navigate to the desired webpage
-    window.location.href = "4_20Report.html";
+    window.location.href = "5_11Report.html";
   });
   /* 
   // Change fixture image every 10 seconds
@@ -124,7 +124,8 @@ setTimeout(function(){
         "https://www.youtube.com/embed/dUq60HNgoVM?si=OZK5cPs1WBhYD6Tk",
         "https://youtube.com/embed/HRR-EeK6_R0?feature=share",
         "https://www.youtube.com/embed/Fzxp1nwOU68?si=ZQUV5ksdX62zkQ04",
-        "https://www.youtube.com/embed/7hD-_Zk6TBo?si=Au0Y8Jayyph8EWfY"
+        "https://www.youtube.com/embed/7hD-_Zk6TBo?si=Au0Y8Jayyph8EWfY",
+        "https://www.youtube.com/embed/GiM5beybVo8?si=x6uUG5zlpR0DUwJF"
     ];
 
     // Index of the currently displayed video

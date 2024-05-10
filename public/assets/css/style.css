@@ -265,9 +265,14 @@ img {
     align-items: center;
 }
 
+#scoreboard img {
+    width: 90px;
+    height: auto;
+}
+
 #score {
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 5px;
     font-weight: bold;
 }
 
@@ -302,8 +307,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 #Sponsor1 {
@@ -311,9 +316,9 @@ img {
 }
 
 .motm-announcement img {
-    max-height: 25px; /* Set maximum height for the image */
+    height: 120px; /* Set maximum height for the image */
     width: auto; /* Set width to auto to maintain aspect ratio */
-    margin-right: 10px; /* Add some space between the image and text */
+    margin-right: 0px; /* Add some space between the image and text */
 }
 
 
@@ -328,7 +333,7 @@ img {
     display: flex;
     justify-content: center; /* Center the video horizontally */
     align-items: center; /* Center the video vertically */
-    margin-top: 20px; /* Add some space between the announcement and video */
+    margin-top: 1px; /* Add some space between the announcement and video */
 }
 
 .motmvideo-container iframe {
@@ -361,7 +366,7 @@ img {
 }
 
 .week img {
-    width: 50px; /* Adjust the width of the image */
+    width: 75px; /* Adjust the width of the image */
     height: auto; /* Maintain aspect ratio */
     margin-left: 10px; /* Add some space between the week number and the image */
     margin-right: 10px;
