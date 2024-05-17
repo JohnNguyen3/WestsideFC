@@ -4,7 +4,6 @@ setTimeout(function(){
     window.location.reload(1);
   }, 600000);
   */
-
 document.getElementById("SGS").addEventListener("click", function() {
   // Navigate to the desired webpage
   window.location.href = "https://thesportclub.org/schedule/sgs";
@@ -32,22 +31,17 @@ document.getElementById("teamHistory").addEventListener("click", function() {
 
 document.getElementById("roster").addEventListener("click", function() {
   // Navigate to the desired webpage
-  window.location.href = "rosterSpring2024.html";
+  window.location.href = "rosterSummer2024.html";
 });
 
 document.getElementById("seasonStats").addEventListener("click", function() {
   // Navigate to the desired webpage
-  window.location.href = "statsSpring2024.html";
+  window.location.href = "statsSummer2024.html";
 });
 
 var videos = [
-  //WFC vs SGBH Spring 2024 Consolation
-  //Niko Goal 2 
-  "https://www.youtube.com/embed/Fzxp1nwOU68?si=ZQUV5ksdX62zkQ04",
-  //Niko Shot
-  "https://www.youtube.com/embed/7hD-_Zk6TBo?si=Au0Y8Jayyph8EWfY",
-  //DJ Game-Saving Save 
-  "https://www.youtube.com/embed/dUq60HNgoVM?si=OZK5cPs1WBhYD6Tk",
+  "https://www.youtube.com/embed/GiM5beybVo8?si=x6uUG5zlpR0DUwJF",
+  "https://www.youtube.com/embed/cwB5xI0nnjs?si=OVqHuC8sncXoqj5G"
 ];
 
 // Index of the currently displayed video

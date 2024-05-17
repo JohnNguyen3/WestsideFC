@@ -316,7 +316,7 @@ img {
 }
 
 .motm-announcement img {
-    height: 120px; /* Set maximum height for the image */
+    height: 50px; /* Set maximum height for the image */
     width: auto; /* Set width to auto to maintain aspect ratio */
     margin-right: 0px; /* Add some space between the image and text */
 }
@@ -388,6 +388,10 @@ img {
     margin-top: 15px;
 }
 
+.match-hover {
+    color: #aa0404;
+}
+
 .match-details,
 .injury-report {
     text-align: left; /* Align text to the left within these sections */
@@ -397,3 +401,38 @@ img {
 .injury-report h3 {
     margin-bottom: 10px;
 }
+
+/* Rankings Container */
+.containerRanking {
+    display: flex;
+    padding: 10px;
+  }
+  
+  .team-containerRanking {
+    flex: 1;
+  }
+  
+  .sectionRanking {
+    border: 1px solid black;
+    margin-bottom: -1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: auto;
+    height: auto;
+  }
+
+  .half-sectionRanking {
+    width: calc(50%); /* Adjusted width for border */
+    display: inline-block;
+    margin-bottom: -1px; /* Offset for border overlap */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+
+  .sectionRanking p, .half-sectionRanking p {
+    font-size: 15px;
+  }

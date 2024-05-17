@@ -1,0 +1,4 @@
+5/10 
+Added Rankings Container information to styles.css and index.html
+
+Note: Possibly consider automating the rankings information, and the schedule making

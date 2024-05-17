@@ -1,8 +1,9 @@
 // Refresh page every 10 minutes
+  /* 
 setTimeout(function(){
-  window.location.reload(1);
-}, 600000);
-
+    window.location.reload(1);
+  }, 600000);
+  */
 document.getElementById("SGS").addEventListener("click", function() {
   // Navigate to the desired webpage
   window.location.href = "https://thesportclub.org/schedule/sgs";
@@ -39,7 +40,10 @@ document.getElementById("seasonStats").addEventListener("click", function() {
 });
 
 var videos = [
+  //WFC vs FC Quetzal Summer 2024 Week 1
+  //Jose Goal
   "https://www.youtube.com/embed/GiM5beybVo8?si=x6uUG5zlpR0DUwJF",
+  //John W Goal
   "https://www.youtube.com/embed/cwB5xI0nnjs?si=OVqHuC8sncXoqj5G"
 ];
 

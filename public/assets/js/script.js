@@ -1,8 +1,9 @@
 // Refresh page every 10 minutes
+  /* 
 setTimeout(function(){
     window.location.reload(1);
   }, 600000);
-  
+  */
   document.getElementById("SGS").addEventListener("click", function() {
     // Navigate to the desired webpage
     window.location.href = "https://thesportclub.org/schedule/sgs";
@@ -30,8 +31,21 @@ setTimeout(function(){
 
   document.getElementById("report").addEventListener("click", function() {
     // Navigate to the desired webpage
-    window.location.href = "5_11Report.html";
+    window.location.href = "5_16Report.html";
   });
+
+// Get the element with the ID 'report'
+const reportElement = document.getElementById("report");
+
+// Add a mouseover event listener to add the 'match-hover' class
+reportElement.addEventListener("mouseover", function() {
+  reportElement.classList.add("match-hover");
+});
+
+// Add a mouseout event listener to remove the 'match-hover' class
+reportElement.addEventListener("mouseout", function() {
+  reportElement.classList.remove("match-hover");
+});
   /* 
   // Change fixture image every 10 seconds
   let fixtureImages = ['./assets/img/Week1.png', './assets/img/Week2.png', './assets/img/Week3.png','./assets/img/Week4.png','./assets/img/Week5.png','./assets/img/Week6.png','./assets/img/Week7.png']; // Add more fixture images
@@ -118,14 +132,49 @@ setTimeout(function(){
 
     // Array of video URLs
     var videos = [
-        "https://youtube.com/embed/KqW25P5uS4w?si=tT1rNUmjwZROgm4i",
-        "https://youtube.com/embed/8mKVIswcHj8?si=Sh3iW3Xfadle7VFY",
-        "https://youtube.com/embed/hsXlXJQM5E8?si=n2n0m5dO9gbRe_NK",
-        "https://www.youtube.com/embed/dUq60HNgoVM?si=OZK5cPs1WBhYD6Tk",
-        "https://youtube.com/embed/HRR-EeK6_R0?feature=share",
+        //WFC vs KBBQ Summer 2024 Week 2
+        //Jose Goal 1
+        "https://www.youtube.com/embed/oBs5lmK0kRs?si=qqTV1mg0xDSH-CmA",
+        //John W Goal
+        "https://www.youtube.com/embed/56t_7kKmeM4?si=ZuT9V4JjWdETfDch",
+        //Baki Goal
+        "https://www.youtube.com/embed/TTEwDRBwpKU?si=8l_xrn11rINtfIj4",
+        //John N Save 1
+        "https://www.youtube.com/embed/0bCb88xO-D8?si=iajBiB28VAMDFo1Z",
+        //Jose Goal 2
+        "https://www.youtube.com/embed/BNOFqF-iJsU?si=WoAqYUxn7F6NdL19",
+        //Thong Goal
+        "https://www.youtube.com/embed/oqp8c0ArWJ4?si=U8xJCkNoQ1WPPne7",
+        //John N Save 2
+        "https://www.youtube.com/embed/HeTIpKRIzR0?si=PocHnny0S5d4vAbC",
+        //John N Save 3
+        "https://www.youtube.com/embed/BzyFPai-1pg?si=Os5HnJLaltvj09Jw",
+
+        //WFC vs FC Quetzal Summer 2024 Week 1
+        //Jose Goal
+        "https://www.youtube.com/embed/GiM5beybVo8?si=x6uUG5zlpR0DUwJF",
+
+        //WFC vs SGBH Spring 2024 Consolation
+        //Niko Goal 2 
         "https://www.youtube.com/embed/Fzxp1nwOU68?si=ZQUV5ksdX62zkQ04",
-        "https://www.youtube.com/embed/7hD-_Zk6TBo?si=Au0Y8Jayyph8EWfY",
-        "https://www.youtube.com/embed/GiM5beybVo8?si=x6uUG5zlpR0DUwJF"
+        //DJ Game-Saving Save 
+        "https://www.youtube.com/embed/dUq60HNgoVM?si=OZK5cPs1WBhYD6Tk",
+
+        //WFC vs Soccer Boys Spring 2024 Preseason
+        //John N Goal 
+        "https://youtube.com/embed/HRR-EeK6_R0?feature=share",
+
+        //WFC vs. FC Queztal Winter 2024 Championship
+        //Daniel Goal
+        "https://youtube.com/embed/KqW25P5uS4w?si=tT1rNUmjwZROgm4i",
+
+        //WFC vs Wrecking Crew Winter 2024 Week 7
+        //John W Goal 
+        "https://youtube.com/embed/hsXlXJQM5E8?si=n2n0m5dO9gbRe_NK",
+
+        //WFC vs SGBH Winter 2024 Week 3
+        //Kaz Save 
+        "https://youtube.com/embed/8mKVIswcHj8?si=Sh3iW3Xfadle7VFY"
     ];
 
     // Index of the currently displayed video
