@@ -388,6 +388,11 @@ img {
     margin-top: 15px;
 }
 
+.match-info img {
+    height: 100px; /* Set maximum height for the image */
+    width: auto; /* Set width to auto to maintain aspect ratio */
+}
+
 .match-hover {
     color: #aa0404;
 }

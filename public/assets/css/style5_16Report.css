@@ -275,7 +275,7 @@ header h1 {
 }
 
 .motm-announcement img {
-  height: 120px; /* Set maximum height for the image */
+  height: 50px; /* Set maximum height for the image */
   width: auto; /* Set width to auto to maintain aspect ratio */
   margin-right: 0px; /* Add some space between the image and text */
 }

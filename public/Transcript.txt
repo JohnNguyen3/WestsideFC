@@ -2,3 +2,13 @@
 Added Rankings Container information to styles.css and index.html
 
 Note: Possibly consider automating the rankings information, and the schedule making
+
+5/16 
+Comments for the JS video array
+Updated 5_11 Report Finished
+Updated 5_16 Report unfinished
+removed automatic refreshing of webpage
+Home page Headline changes colors when hovered over. 
+
+5/22
+Updated home page schedule and next match
