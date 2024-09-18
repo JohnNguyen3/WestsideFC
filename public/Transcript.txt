@@ -12,3 +12,22 @@ Home page Headline changes colors when hovered over.
 
 5/22
 Updated home page schedule and next match
+
+
+Next 
+Fixed Typo on What's next 5_16 Report
+Added new option for report dropdown in all report pages
+Highlights for Report 5_28 Done
+Headlines
+New CSS and JS page
+** Add a star to Strangers United's Crest
+
+
+
+9/17 
+Creating Solo Page for Summer_Fall Semi-Finals Report
+
+Need
+Create Folders for Reports to reduce number of pages and organization
+Attach JS for W8_SF report and add new Highlights
+Move W8_SF to a new Summer_Fall Section. 
